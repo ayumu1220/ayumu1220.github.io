@@ -30,7 +30,8 @@ body {
 /*main*/
 .main {
   background-color: #000033;
-  height: 800px;
+  height: 1000px;
+  padding-top: 10px;
 }
 
 .copy-container {
