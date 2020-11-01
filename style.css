@@ -16,26 +16,65 @@ body {
     "MS PGothic", sans-serif;
 }
 
-/* 上部の背景 */
+                    /* 上部の背景 */
 .header {
   background-color: #000022;
   height: 85px;
 }
-/*Codetamplaterのロゴ*/
+                    /*Codetamplaterのロゴ*/
 .header-logo {
     font-size: 20px;
     color: #777777;
     padding: 10px 40px;
 }
 
-/* HTML CSS python java javascript*/
-.header-list {
-    display: block;
-    background-color: teal;
-    color: cadetblue;
-    float: left;
-    padding-left: 40px;
-}
+                    /* HTML CSS python java javascript*/
+
+
+.btn {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    color: rgb(44, 43, 43);
+    line-height: 40px;
+    cursor: pointer;
+    
+    text-align: center;
+    background-color: rgb(2, 2, 39);
+  }
+
+   .left{
+    margin-left: 40px;
+  }
+
+  .btn svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .btn svg rect {
+    stroke: #1e3ce7;
+    stroke-width: 3;
+    stroke-dasharray: 400, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all .9s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all .9s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all .9s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 110, 290;
+    stroke-dashoffset: 175;
+  }
+
+  .btn:hover{
+    color: rgb(35, 110, 250);
+    transition:all 1.5s;
+  }
+
+
+
 
 
 
@@ -52,7 +91,7 @@ body {
 }
 
 .copy-container h1 {
-  /*Hello !!!*/
+                    /*Hello !!!*/
   padding-top: 10px;
   font-size: 40px;
   display: block;
@@ -63,7 +102,7 @@ body {
 }
 
 .contact-form {
-  /*お問い合わせフォームのグループ*/
+                        /*お問い合わせフォームのグループ*/
   padding-top: 400px;
   padding-left: 40px;
 }
@@ -89,11 +128,13 @@ body {
 
 .footer-list {
   display: block;
+  
 }
 
 .footer-list li {
   text-align: right;
   padding-bottom: 5px;
+  list-style: none;
 }
 
 
