@@ -1,0 +1,93 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  color: #777777;
+}
+
+body {
+  font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif;
+}
+
+/* 上部の背景 */
+.header {
+  background-color: #000022;
+  height: 85px;
+}
+/*Codetamplaterのロゴ*/
+.header-logo {
+  font-size: 20px;
+  color: #777777;
+  padding: 10px 40px;
+}
+/*main*/
+.main {
+  background-color: #000033;
+  height: 800px;
+}
+
+.copy-container {
+  padding-left: 40px;
+  color: #777777;
+}
+
+.copy-container h1 {
+  /*Hello !!!*/
+  padding-top: 10px;
+  font-size: 40px;
+  display: block;
+  border-bottom: 2px solid blue;
+}
+.contents-item {
+  float: left;
+}
+
+.contact-form {
+  /*お問い合わせフォームのグループ*/
+  padding-top: 400px;
+  padding-left: 40px;
+}
+
+.section-title {
+  /*お問い合わせ*/
+}
+.contact p {
+  /*メールアドレス、お問い合わせ内容、必須項目は*/
+}
+
+/*footer*/
+.footer {
+  background-color: #000011;
+  height: 150px;
+  padding: 40px;
+}
+
+.footer-logo {
+  font-size: 25px;
+  float: left;
+}
+
+.footer-list {
+  display: block;
+}
+
+.footer-list li {
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+/* header-list*/
+.header-list {
+  padding: 0px 40px;
+}
+
+.language-list {
+  padding-left: 0px;
+}
