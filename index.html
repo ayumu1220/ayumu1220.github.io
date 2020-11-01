@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>CodeTemplater</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<html lang="ja">
 
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTemplater</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="index.js"></script>
 </head>
 
-<!-- ↓ここからbody -->
+                    <!-- ↓ここからbody -->
+
 <body>
   <div class="header">
     <div class="header-logo">
@@ -16,17 +23,40 @@
     </div>
 
     <div class="header-list">
-      <ul>
-        <il><a href="" class="language-list">HTML</a></il>　
-        <il><a href="" class="language-list">CSS</a></il>　
-        <il><a href="" class="language-list">python</a></il>　
-        <il>java</il>　
-        <il>javascript</il>　
-      </ul>
+      
+        <div class="btn left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="0" y="0" fill="none" width="160" height="40" />
+            </svg>
+            HTML
+        </div>
+        <div class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="0" y="0" fill="none" width="160" height="40" />
+            </svg>
+            CSS
+        </div><div class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="0" y="0" fill="none" width="160" height="40" />
+            </svg>
+            python
+        </div><div class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="0" y="0" fill="none" width="160" height="40" />
+            </svg>
+              java
+        </div>
+        <div class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="0" y="0" fill="none" width="160" height="40" />
+            </svg>
+            javascript
+        </div>
+     
     </div>
   </div>
 
-  <!-- ↓ここからmain -->
+                    <!-- ↓ここからmain -->
   <div class="main">
     <div class="copy-container">
       <h1>Hello (言語の名前)!!</h1>
@@ -34,7 +64,7 @@
     </div>
 
     <div class="contents">
-      <h3></h3>
+      <p></p>
     </div>
 
     <div class="contents-item"></div>
@@ -79,5 +109,6 @@
     </div>
   </div>
 </body>
+
 
 </html>
