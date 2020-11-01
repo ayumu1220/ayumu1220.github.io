@@ -23,10 +23,22 @@ body {
 }
 /*Codetamplaterのロゴ*/
 .header-logo {
-  font-size: 20px;
-  color: #777777;
-  padding: 10px 40px;
+    font-size: 20px;
+    color: #777777;
+    padding: 10px 40px;
 }
+
+/* HTML CSS python java javascript*/
+.header-list {
+    display: block;
+    background-color: teal;
+    color: cadetblue;
+    float: left;
+    padding-left: 40px;
+}
+
+
+
 /*main*/
 .main {
   background-color: #000033;
@@ -84,11 +96,8 @@ body {
   padding-bottom: 5px;
 }
 
-/* header-list*/
-.header-list {
-  padding: 0px 40px;
-}
 
-.language-list {
-  padding-left: 0px;
-}
+
+
+
+
