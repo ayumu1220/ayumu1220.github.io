@@ -21,11 +21,22 @@ body {
   background-color: #000022;
   height: 85px;
 }
-                    /*Codetamplaterのロゴ*/
-.header-logo {
-    font-size: 20px;
+                   
+.header-logo p{      /*Codetamplaterのロゴ*/
+    font-size: 29px;
     color: #777777;
-    padding: 10px 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+    
+
+}
+p img {                /*アイコンの微調整*/
+  
+    position: relative;
+    /* 値は調整してください */
+    top: 2px;
+    right: 2px;
 }
 
                     /* HTML CSS python java javascript*/
@@ -69,8 +80,8 @@ body {
   }
 
   .btn:hover{
-    color: rgb(35, 110, 250);
-    transition:all 1.5s;
+    color: rgb(10, 86, 226);
+    transition:all 1s;
   }
 
 
@@ -103,15 +114,18 @@ body {
 
 .contact-form {
                         /*お問い合わせフォームのグループ*/
-  padding-top: 400px;
+  margin-top: 400px;
   padding-left: 40px;
 }
 
 .section-title {
   /*お問い合わせ*/
+  margin-bottom: auto;
+  
 }
 .contact p {
   /*メールアドレス、お問い合わせ内容、必須項目は*/
+  padding-bottom: auto;
 }
 
 /*footer*/
