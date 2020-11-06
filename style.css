@@ -11,6 +11,8 @@ li {
 }
 
 body {
+  width: 100%;
+  padding-bottom: 200px;
   font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
     "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
     "MS PGothic", sans-serif;
@@ -19,30 +21,41 @@ body {
                     /* 上部の背景 */
 .header {
   background-color: #000022;
-  height: 85px;
+  height: 100px;
+  width: 100%;
+  position:fixed; /*ヘッダーを↑に固定*/
+  top:0;
+  
 }
-                   
-.header-logo p{      /*Codetamplaterのロゴ*/
-    font-size: 32px;
+.header-title      {
+  position: relative;
+
+  
+}   
+.header-img{ /*アイコン*/
+  float:left;
+  
+}
+.header-logo h1{      /*Codetamplaterのロゴ*/
+    font-size: 20px;
     color: #777777;
     padding-left: 40px;
-    padding-top: 30px;
+    
     font-weight: bold;
     
-
+    
 }
-p img {
+h1 img {
   
     position: relative;
     /* 値は調整してください */
-    top: 2px;
+    top: 1px;
     right: 2px;
 }
 
-                    /* HTML CSS python java javascript*/
+                   
 
-
-.btn {
+.btn {   /* HTML CSS python java javascript*/
     display: inline-block;
     position: relative;
     width: 160px;
@@ -56,8 +69,15 @@ p img {
   }
 
    .left{
-    margin-left: 40px;
+     margin-left: 40px;
   }
+ 
+.CSS{
+ padding-right: 5px;
+}
+.python{
+  padding-right: 5px;
+}
 
   .btn svg{
     position: absolute;
@@ -81,6 +101,7 @@ p img {
 
   .btn:hover{
     color: rgb(10, 86, 226);
+   
     transition:all 1s;
   }
 
@@ -93,7 +114,8 @@ p img {
 .main {
   background-color: #000033;
   height: 1000px;
-  padding-top: 10px;
+  padding-top: 70px;
+  
 }
 
 .copy-container {
@@ -107,6 +129,7 @@ p img {
   font-size: 40px;
   display: block;
   border-bottom: 2px solid blue;
+  
 }
 .contents-item {
   float: left;
