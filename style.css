@@ -12,19 +12,22 @@ li {
 
 body {
   width: 100%;
-  padding-bottom: 200px;
+  height: 700px;
+  padding-bottom: 300px;
+
   font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
     "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
     "MS PGothic", sans-serif;
 }
 
-                    /* 上部の背景 */
-.header {
+                    
+.header {     /* 上部の背景 */
   background-color: #000022;
   height: 100px;
   width: 100%;
   position:fixed; /*ヘッダーを↑に固定*/
   top:0;
+  z-index: 10;
   
 }
 .header-title      {
@@ -32,7 +35,7 @@ body {
 
   
 }   
-.header-img{ /*アイコン*/
+.header-img{        /*アイコン*/
   float:left;
   
 }
@@ -72,12 +75,7 @@ h1 img {
      margin-left: 40px;
   }
  
-.CSS{
- padding-right: 5px;
-}
-.python{
-  padding-right: 5px;
-}
+
 
   .btn svg{
     position: absolute;
@@ -131,13 +129,18 @@ h1 img {
   border-bottom: 2px solid blue;
   
 }
+.copy-container span:hover{
+  color: aqua;
+  transition: 0.5s;
+  cursor: pointer;
+}
 .contents-item {
   float: left;
 }
 
 .contact-form {
                         /*お問い合わせフォームのグループ*/
-  margin-top: 400px;
+  margin-top: 250px;
   padding-left: 40px;
 }
 
@@ -174,8 +177,46 @@ h1 img {
   list-style: none;
 }
 
+.copy-container h3{
+  background-color: rgb(194, 194, 194);
+  border-radius: 10px 0 10px 0;
+  display: inline-block;
+  padding:10px;
+}
+.google{
+  background-color: rgb(171, 179, 182);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.copy-container h2{
+  color: aqua;
 
+}
 
+.G{
+  color: #1e3ce7;
+
+}
+.o1{
+  color: #f33c54;
+
+}
+.o2{
+  color: #f0d957;
+
+}
+ .g{
+  color: #1e3ce7;
+
+}
+.l{
+  color: #3a9242;
+
+}
+.e{
+  color: #f33c54;
+
+}
 
 
 
